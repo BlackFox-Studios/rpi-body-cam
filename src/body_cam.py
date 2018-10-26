@@ -20,6 +20,8 @@ GPIO.setup(pir_sensor, GPIO.IN)
 # triggering the camera to record video if motion is detected. The script below
 # will continuously execute until 'Ctrl+C' is pressed on the user's keyboard.
 
+# TODO: Add push-button functionality and an LED light
+
 try:
     while True:
         sleep(0.1)
